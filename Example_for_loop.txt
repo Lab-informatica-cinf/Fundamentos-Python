@@ -1,0 +1,33 @@
+# -> Los ciclos For-loop son un aspecto esencial de cualquier lenguaje de programación.
+
+# -> La declaración "for" de Python itera sobre los elementos de cualquier secuencia 
+#   (una lista o un cadena), en el orden en que aparecen en la secuencia.
+
+EJEMPLO FOR-LOOPs
+
+Para recorrer una lista de números, solo tenemos que crear una lista de 
+números y pasarla como argumento al ciclo for como se muestra a continuación. 
+
+para i en [1, 2, 3, 4, 5]:
+  imprimir (i)
+  
+  En el ejemplo anterior:
+
+-> Recorrerá todos los números en la lista dada (es decir, del 1 al 5) y luego los imprimirá.
+
+-> Aquí, hemos dado directamente la lista [1, 2, 3, 4, 5] como argumento para el ciclo for.
+
+-> Los elementos individuales en la lista deben estar separados por comas.
+
+-> No olvide especificar los dos puntos [:] al final de la línea for loop. Esto es parte de la sintaxis.
+
+-> También puede almacenar la lista en una variable y pasar esa variable como argumento al ciclo for.
+
+-> Para cada iteración del bucle for, cada valor se recoge de la lista y se almacena en la variable 
+   dada en el bucle for. En este ejemplo, la variable es "i".
+   
+-> Dentro del bucle, solo tenemos una instrucción, que es print, que toma el valor del elemento individual 
+   de la variable i y lo imprime.Si desea ejecutar varias declaraciones para cada iteración del bucle for, 
+   sangrarlas en consecuencia (es decir, ponerlas en el mismo nivel que el comando de impresión).
+   
+   
