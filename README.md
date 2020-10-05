@@ -1,17 +1,22 @@
 # Fundamentos-Python
 Fragmentos de código que abarcan los temas fundamentales del lenguaje de programación Python abordados desde el Laboratorio de Informatica y Ciencia de la informacion EIB. 
 
-Ejemplos desde los cuales se pueden ampliar conocimientos sobre variables, estructuras, objetos, metodos, funciones. etc. 
+Ejemplos desde los cuales se pueden ampliar conocimientos sobre variables, estructuras, objetos, metodos, funciones. etc.
 
-# Terminos y conceptos clave para ampliar consultas:
+Todas las pruebas de fragmentos de codigo python se realizaron en un equipo con ubuntu 18.04, desde el interprete de comandos Bash; los interactive python notebooks se corrieron en un entorno basico de Ipython.
+
+# Topicos:
+install python in linux
+
+interprete de python
+
+Ipython
+
+python scripts
 
 python programming language
 
 computer programming logic
-
-python scripts
-
-python pograms
 
 python reserve keywords
 
@@ -19,12 +24,25 @@ variables
 
 data structures
 
-proccess structure
+logic structures
 
-funtions
+functions
+
+built-in functions
 
 objects
 
-methods objects
+classes(or blue-prints for create objects)
+
+class variables - instance variables
+
+class methods
+
+inheritance(from a simple base class)
 
 standar library
+  
+    os
+    sys
+    json
+    requests
