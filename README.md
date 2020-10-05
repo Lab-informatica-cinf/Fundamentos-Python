@@ -7,7 +7,7 @@ Todas las pruebas de fragmentos de codigo python se realizaron en un equipo con 
 
 # Topicos:
 install python in Ubuntu linux machine(OS-Base-Debian)
-  '''install python 3.6 or python 3.8''' 
+  # '''install python 3.6 or python 3.8''' 
   
 
 interprete de python
