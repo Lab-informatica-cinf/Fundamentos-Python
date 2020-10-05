@@ -5,13 +5,34 @@ Ejemplos desde los cuales se pueden ampliar conocimientos sobre variables, estru
 
 Todas las pruebas de fragmentos de codigo python se realizaron en un equipo con ubuntu 18.04, desde el interprete de comandos Bash; los interactive python notebooks se corrieron en un entorno basico de Ipython.
 
+see this tutorial for ''HOW INSTALL UBUNTU IN VIRTUAL MACHINE IN WINDOWS'' para poder empezar a probrar estos codigos en tu equipo.
+
 # Topicos:
 install python in Ubuntu linux machine(OS-Base-Debian)
-  #'''install python 3.6 or python 3.8''' 
-        
+
+    #if you are using ubuntu 16.04 launch terminal an issue:
+    $sudo apt-get update
+    $sudo apt-get install python3.6
+    
+    #if you are using another version of ubuntu(e.g. the latest LTS release) or you want to use a more current python, we recommend to use deadsnakes PPA
+    #to install python 3.8:
+    $sudo apt-get install software.properties-common
+    $sudo add-apt-repository ppa:deadsnakes/ppa
+    $sudo apt-get update
+    $sudo apt-get install python3.8
+    
+    #at this point you may have  system python2.7 avaible as well. issue python on terminal:
+    $python
+    #this launch interactive python 2.7 CLI. insert 
+    >>>exit()
+    
+    $python3
+    #this this launch interactive python 3.8 CLI.
+    >>>help
+
 
 interprete de python
-
+ cli
 Ipython
 
 python scripts
@@ -43,8 +64,14 @@ class methods
 inheritance(from a simple base class)
 
 standar library
-  
+
     os
     sys
     json
     requests
+    
+pip and third-party python packages
+    
+    numpy
+    pandas
+    sckitlearn
