@@ -3,7 +3,7 @@ Fragmentos de código que abarcan los temas fundamentales del lenguaje de progra
 
 Ejemplos desde los cuales se pueden ampliar conocimientos sobre variables, estructuras, objetos, metodos, funciones. etc.
 
-Todas las pruebas de fragmentos de codigo python se realizaron en un equipo con ubuntu 18.04, desde el interprete de comandos Bash; los interactive python notebooks se corrieron en un entorno basico de Ipython.
+Todas las pruebas de fragmentos de codigo python se realizaron en un equipo con ubuntu 18.04, desde el interprete de comandos Bash; los interactive python notebooks se corrieron en un entorno basico de Jupyter.
 
 ## antes de empezar con los temas:
 ## tener un entorno de trabajo:sistema operativo en una maquina virtual.
@@ -40,6 +40,14 @@ this this launch interactive python 3.8 CLI.
    
     >>>help
 this insert us in mode python docs-guides
+
+## instalar notebook y lanzar jupyter notebook
+
+    $pip3 install notebook
+this install jupyter notebook in your machine. notebooks allow us make interactive python notebooks.to do thar, issue:
+    
+    $jupyter notebook 
+this launch command jupyter notbook environment.
 
 ## Learning Topics
 
