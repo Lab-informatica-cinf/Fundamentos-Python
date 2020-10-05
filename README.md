@@ -6,7 +6,9 @@ Ejemplos desde los cuales se pueden ampliar conocimientos sobre variables, estru
 Todas las pruebas de fragmentos de codigo python se realizaron en un equipo con ubuntu 18.04, desde el interprete de comandos Bash; los interactive python notebooks se corrieron en un entorno basico de Ipython.
 
 # Topicos:
-install python in linux
+install python in Ubuntu linux machine(OS-Base-Debian)
+  '''install python 3.6 or python 3.8''' 
+  
 
 interprete de python
 
