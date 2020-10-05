@@ -5,10 +5,13 @@ Ejemplos desde los cuales se pueden ampliar conocimientos sobre variables, estru
 
 Todas las pruebas de fragmentos de codigo python se realizaron en un equipo con ubuntu 18.04, desde el interprete de comandos Bash; los interactive python notebooks se corrieron en un entorno basico de Ipython.
 
-see this tutorial for ''HOW INSTALL UBUNTU IN VIRTUAL MACHINE IN WINDOWS'' para poder empezar a probrar estos codigos en tu equipo.
+## antes de empezar con los temas:
+## tener un entorno de trabajo:sistema operativo en una maquina virtual.
+see this tutorial for ''HOW INSTALL UBUNTU IN VIRTUAL MACHINE IN WINDOWS'' 
+se this tutorial for ''INTRO COMMAND LINE INTERFACE IN LINUX''  
 
-# Prerequisitos
-"install python in Ubuntu linux machine(OS-Base-Debian)".here there are some instructions for done that.   
+## instalar python y acceder al modo interactivo(python cli)
+Install python in Ubuntu linux machine(OS-Base-Debian)".here there are some instructions for done that.   
 
 if you are using ubuntu 16.04 launch terminal an issue:
     
@@ -38,17 +41,15 @@ this this launch interactive python 3.8 CLI.
     >>>help
 this insert us in mode python docs-guides
 
-interprete de python
- cli
-Ipython
-
-python scripts
+## Learning Topics
 
 python programming language
 
-computer programming logic
+python scripts
 
 python reserve keywords
+
+computer programming logic
 
 variables
 
@@ -77,8 +78,19 @@ standar library
     json
     requests
     
-pip and third-party python packages
+pip install 
+
+Install third-party python packages
+  from python ecosistem developers:  
     
     numpy
     pandas
     sckitlearn
+    nltk
+    spacy
+    gensym
+    textblob
+
+Install software from github 
+    
+    somedatascience project
