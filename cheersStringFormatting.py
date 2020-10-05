@@ -4,8 +4,8 @@
 This script receive a person name, 
 and return "hello "person name", 
 welcome to labcinf2020"
-This code ask name twice. one for instructions
-other for the main function.
+This code could ask me name twice. one for instructions
+other for the main function, if this are activate.
 '''
 
 #basic variable declaration,data input, data store, and  print instruction.
@@ -34,5 +34,5 @@ def main():
 	cheers_string_formatting()
 
 if __name__ == '__main__':
-	#main() for activate main function
+	#main()			#uncomment main for activate main function, ask twice.
 	print("enjoy it! :)")
