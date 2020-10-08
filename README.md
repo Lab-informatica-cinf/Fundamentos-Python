@@ -3,12 +3,12 @@ Fragmentos de código que abarcan los temas fundamentales del lenguaje de progra
 
 Ejemplos desde los cuales se pueden ampliar conocimientos sobre variables, estructuras, objetos, metodos, funciones. etc.
 
-Todas las pruebas de fragmentos de codigo python se realizaron en un equipo con ubuntu 18.04, desde el interprete de comandos Bash; los interactive python notebooks se corrieron en un entorno basico de Jupyter.
+Todas las pruebas de fragmentos de codigo python(scripts) se realizaron en un equipo con ubuntu 18.04, desde el interprete de comandos Bash;antes de abordar interactive python notebooks utlizando el entorno basico de Jupyter, se utilizo el modo interactivo de python y el IDLE propio del lenguaje.
 
 ## antes de empezar con los temas:
 ## tener un entorno de trabajo:sistema operativo en una maquina virtual.
-see this tutorial for ''HOW INSTALL UBUNTU IN VIRTUAL MACHINE IN WINDOWS'' 
-se this tutorial for ''INTRO COMMAND LINE INTERFACE IN LINUX''  
+see this tutorial for ''HOW INSTALL UBUNTU IN VIRTUAL MACHINE IN WINDOWS'' https://www.youtube.com/watch?v=QbmRXJJKsvs
+se this tutorial for ''INTRO COMMAND LINE INTERFACE IN LINUX''  https://www.youtube.com/watch?v=proaHoj2_-g
 
 ## instalar python y acceder al modo interactivo(python cli)
 Install python in Ubuntu linux machine(OS-Base-Debian)".here there are some instructions for done that.   
@@ -41,7 +41,25 @@ this this launch interactive python 3.8 CLI.
     >>>help
 this insert us in mode python docs-guides
 
-## instalar notebook y lanzar jupyter notebook
+## acceder al IDLE(entorno de desarrollo integrado) de python
+primero verificamos que el idle se haya instalado correctamente
+      
+    $which idle
+    /usr/bin/idle
+si se optiene el resultado anterior, lanzar el siguiente comando para acceder al idle.
+    
+    $idle
+    
+de lo contrario, emitir los siguients comandos para instalar el idle de python:
+    
+    $sudo apt-get update
+    $sudo apt-get install idle3
+
+a este punto, ya contamos con: una maquina virtual con un sistema operativo ubuntu; 
+una terminal de comandos, desde la cual instalamos python y el idle de python.
+ahora contamos con todos los insumos para empezar a escribir codigo! :)
+
+## instalar notebook y lanzar jupyter notebook(opcional)
 
     $pip3 install notebook
 this install jupyter notebook in your machine. notebooks allow us make interactive python notebooks.to do thar, issue:
