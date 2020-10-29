@@ -1,0 +1,12 @@
+type of variables-string variables-string interpolation/ f-String(python3.6+)
+
+>>> name = "Biblio"
+>>> f'Hello,{name}!'
+'Hello, Biblio!'
+
+>>> a = 5
+>>> b = 10
+>>> f'Five plus ten is {a + b} and not {2 * (a + b)}.'
+'Five plus ten is 15 and not 30.'
+
+Formatted string literals are a Python parser feature that converts f-strings into a series of string constants and expressions. They then get joined up to build the final string.

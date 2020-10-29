@@ -1,0 +1,25 @@
+Strings are usually created in one of three ways.
+
+>>> my_string = "Welcome to Python!"
+>>> another_string = 'The bright red fox jumped the fence.'
+>>> a_long_string = '''This is a
+multi-line string. It covers more than
+one line'''
+
+used single, double o tripe coute
+
+>>> my_string = "I'm a Python programmer!"
+>>> otherString = 'The word "python" usually refers to a snake'
+>>> tripleString = """Here's another way to embed "quotes" in a string"""
+
+The code above demonstrates how you could put single quotes or double quotes into a string. 
+
+other way to create string.
+>>> my_number = 123
+>>> my_string = str(my_number)
+
+we will used str method.
+
+ok, do you want to continue learning?
+see: https://python101.pythonlibrary.org/chapter2_strings.html
+s
